@@ -1,20 +1,20 @@
-import "./counter.css";
 import React, { useState } from "react";
+import "./counter.css";
 
 function Counter() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount((prevCount) => prevCount + 1);
+    setCount(prevCount => prevCount + 1);
   };
 
   const decrement = () => {
-    setCount((prevCount) => prevCount - 1);
+    setCount(prevCount => prevCount - 1);
   };
 
   return (
     <div className="counter-cont">
-      <div className="counter-aligh">
+      <div className="counter-align">
         <h2>Counter Application</h2>
         <div>
           <button onClick={decrement}>-</button>

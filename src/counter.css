@@ -1,11 +1,46 @@
 .counter-cont {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    
-}
-
-.counter-aligh {
-    margin-left: 700px;
-    margin-top: 350px;
-}
+    height: 100vh;
+  }
+  
+  .counter-align {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .counter-align h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .counter-align div {
+    margin-top: 10px;
+  }
+  
+  .counter-align button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .counter-align button:hover {
+    background-color: #45a049;
+  }
+  
+  .counter-align span {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .counter-align p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
